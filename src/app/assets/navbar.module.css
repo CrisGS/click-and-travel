@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    font-size: 1rem;
+    font-weight:normal;
+    font-family: 'Inter', sans-serif;
+    gap: 3rem;
+    padding: auto;
+    margin: auto 50px auto auto;
+}
+
+.link {
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.15rem;
+}
+
+.link:hover {
+    padding: 0.5rem;
+    text-decoration-line: none;
+    color: rgb(0, 34, 255);
+}
